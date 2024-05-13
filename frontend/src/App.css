@@ -1,0 +1,38 @@
+/* TextInput.css */
+
+.autocomplete-container {
+  position: relative;
+  width: 300px;
+  /* Adjust the width as needed */
+  margin-top: 10px;
+  /* Add spacing as needed */
+}
+
+/* Style the suggestion items */
+.geocoder-suggest-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Style the suggestion items on hover */
+.geocoder-suggest-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the suggestion items when selected */
+.geocoder-suggest-item.active {
+  background-color: #4CAF50;
+  /* Selected suggestion background color */
+  color: #fff;
+  /* Selected suggestion text color */
+}
+
+.geoapify-close-button{
+  display: none;
+} 
+
+.autocomplete-container input:nth-child(1){
+  display: none;
+}
